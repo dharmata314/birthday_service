@@ -34,13 +34,15 @@
 ```
 Authorization: Bearer <token>
 ```
-Уведомления о дне рождении присылаются на почту, которая указывается при регистрации. Чтобы функция отправки писем работала, необходимо в [main файле](https://github.com/dharmata314/birthday_service/blob/main/cmd/main.go) указать данные конфигурации SMTP профиля для Вашей почты. Пример:
+Уведомления о днях рождениях присылаются на электронную почту, которая указывается при регистрации. Чтобы функция отправки писем работала, необходимо в [main файле](https://github.com/dharmata314/birthday_service/blob/main/cmd/main.go) указать данные конфигурации SMTP профиля для Вашей почты. Пример:
+```
 cfgSMTP := &config.ConfigSMTP{
 		SMTPHost:     "smtp.yandex.ru",
 		SMTPPort:     587,
 		SMTPUsername: "test@yandex.ru",
 		SMTPPassword: "mzvsllelcirlsfpr",
 	}
+ ```
 ## Примеры запросов
 
 Запросы при нативном запуске делаются без команды ```docker-compose exec app```
