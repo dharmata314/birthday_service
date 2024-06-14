@@ -106,7 +106,7 @@ http://localhost:8080/subs
 ```
 Удаление подписки на уведомление о дне рождении:
 ```
-curl -X DELETE \
+docker-compose exec curl -X DELETE \
 -H "Authorization: Bearer <token>" \
 http://localhost:8080/subs/{id}
 
