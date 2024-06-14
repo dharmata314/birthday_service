@@ -9,7 +9,7 @@
 =
 ### Нативно
 Для нативного запуска достаточно запустить приложение из папки [cmd](https://github.com/dharmata314/birthday_service/tree/main/cmd). 
-Предварительно, необходимо установить зависимости из [go.mod](https://github.com/dharmata314/birthday_service/blob/main/go.mod) и изменить в [конфиге](https://github.com/dharmata314/birthday_service/blob/main/config/config.yaml) host: postgres на host: localhost
+Предварительно, необходимо установить зависимости из [go.mod](https://github.com/dharmata314/birthday_service/blob/main/go.mod) и изменить в [конфиге](https://github.com/dharmata314/birthday_service/blob/main/config/config.yaml) ```host: postgres``` на ```host: localhost```
 ## Общее
 Приложение представляет из себя сервис уведомлений о днях рождениях. 
 Доступны следующие операции:
