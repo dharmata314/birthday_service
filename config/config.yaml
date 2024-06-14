@@ -1,0 +1,11 @@
+http_server:
+  address: localhost:8080
+  timeout: 10s
+  idle_timeout: 120s
+database:
+  host: postgres
+  port: 5432
+  user: postgres
+  password: postgres
+jwt:
+  secret: FJKngdjkfgndfkgc534tlLKFJKLmfkdfjnk
