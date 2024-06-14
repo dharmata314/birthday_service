@@ -77,10 +77,10 @@ http://localhost:8080/users/{id}
 ```
 Добавление сотрудника:
 ```
-docker-compose exec app curl -X POST \ 
--H "Authorization: <token>" \
+docker-compose exec app curl -X POST \
+-H "Authorization: Bearer <token>" \
 -H "Content-Type: application/json" \
--d '{"name": "John", "birthday": "01.01.1995"}' \
+-d '{"name": "John", "birthday": "14.06.1995"}' \
 http://localhost:8080/emp
 ```
 Получение списка всех сотрудников
