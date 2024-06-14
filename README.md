@@ -6,6 +6,10 @@
 
 ### Docker 
 Для развертывания в Docker Compose создан файл [docker-compose.yml](https://github.com/dharmata314/birthday_service/blob/main/docker-compose.yml)
+Необходимо запустить команду
+```
+docker-compose up --build app
+```
 =
 ### Нативно
 Для нативного запуска достаточно запустить приложение из папки [cmd](https://github.com/dharmata314/birthday_service/tree/main/cmd). 
