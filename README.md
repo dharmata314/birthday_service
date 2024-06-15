@@ -93,7 +93,6 @@ http://localhost:8080/emp
 docker-compose exec curl -X GET \
 -H "Authorization: Bearer <token>" \
 http://localhost:8080/employees
-
 ```
 Добавление подписки на уведомление о дне рождении:
 ```
@@ -102,12 +101,10 @@ docker-compose exec app curl -X POST \
 -H "Content-Type: application/json" \
 -d '{"emp_id": 1, "user_id": 1}' \
 http://localhost:8080/subs
-
 ```
 Удаление подписки на уведомление о дне рождении:
 ```
 docker-compose exec curl -X DELETE \
 -H "Authorization: Bearer <token>" \
 http://localhost:8080/subs/{id}
-
 ```
